@@ -1,6 +1,6 @@
-#Primeiro programa com variáveis.
+#Calculo de aumento de sálario
 
-a = 2
-b = 3
+salario = 1500
+aumento = 5
 
-print (a+b)
+print (salario + (salario * aumento) / 100)
