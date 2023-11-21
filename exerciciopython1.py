@@ -1,4 +1,4 @@
-#Calculo de aumento de sálario
+#Calculo de aumento de salário
 
 salario = 1500
 aumento = 5
