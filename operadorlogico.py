@@ -1,9 +1,12 @@
-#Função len obtém o tamanho de uma string
+# Acessando caracteres de uma string
 
-print (len("A"))
+a = "ABCDEF"
+b = "Estou estudando python"
 
-print (len("AB"))
-
-print (len(""))
-
-print (len("O rato roeu a roupa"))
+print (a[0])
+print (a[1])
+print (a[5])
+print (a[3])
+print (len(a))
+print (len(b))
+print (b[16])
