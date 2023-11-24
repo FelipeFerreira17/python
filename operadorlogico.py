@@ -1,9 +1,8 @@
 # Estudando string
-# Exemplo de concatenação
 
-a = "ABC"
+idade = 25
 
-print (a + "C")
-print (a + "D" * 4)
-print ("X" + "-" * 10 + "X")
-print (a + "x4 = " + a *4)
+print ("[%d]" % idade)
+print ("[%03d]" % idade)
+print ("[%3d]" % idade)
+print ("[%-3d]" % idade)
