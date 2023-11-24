@@ -1,12 +1,9 @@
-# Acessando caracteres de uma string
+# Estudando string
+# Exemplo de concatenação
 
-a = "ABCDEF"
-b = "Estou estudando python"
+a = "ABC"
 
-print (a[0])
-print (a[1])
-print (a[5])
-print (a[3])
-print (len(a))
-print (len(b))
-print (b[16])
+print (a + "C")
+print (a + "D" * 4)
+print ("X" + "-" * 10 + "X")
+print (a + "x4 = " + a *4)
