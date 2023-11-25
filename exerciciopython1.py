@@ -1,6 +1,3 @@
-#Calculo de aumento de salário
+nome = input ("Qual é o seu nome?")
 
-salario = 1500
-aumento = 5
-
-print (salario + (salario * aumento) / 100)
+print("Olá" , nome , "Seja bem vindo!")
