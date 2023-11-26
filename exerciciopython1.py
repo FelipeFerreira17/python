@@ -1,5 +1,5 @@
-dia = input ("Digite o dia que você nasceu:")
-mes = input ("Digite o mês do seu nascimento:")
-ano = input ("Digite o ano que você nasceu:")
+numero1 = int( input ("Digite um numero:"))
+numero2 = int( input ("Digite o segundo numero: "))
+resultado = numero1 + numero2
 
-print ("Sua data de nascimento é: ",dia, "de ",mes, "de" ,ano) 
+print ("A soma dos numeros é: ",resultado)
