@@ -1,7 +1,5 @@
-# Bônus por tempo de serviço
+numero1 = int(input('Digite o primeiro número: '))
+numero2 = int(input('Digite o segundo número: '))
+resultado = numero1 + numero2
 
-anos = int(input('Digite o total de anos trabalhados: '))
-valorPorAnos = float(input('Digite o valor de bônus por ano: '))
-bonus = anos * valorPorAnos
-
-print ('O valor do bônus por tempo de serviço é: %5.2f' %(bonus))
+print ('A soma dos numeros digitados é: %d' %(resultado))
