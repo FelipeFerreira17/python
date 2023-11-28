@@ -1,5 +1,6 @@
-numero1 = int(input('Digite o primeiro número: '))
-numero2 = int(input('Digite o segundo número: '))
-resultado = numero1 + numero2
+# Converter metros em milimetros
 
-print ('A soma dos numeros digitados é: %d' %(resultado))
+metros = float(input('Digite o valor em metros: '))
+milimetros = metros * 1000
+
+print ('O valor de %2.1f em milimetros é: %5.2f' %(metros, milimetros)) 
