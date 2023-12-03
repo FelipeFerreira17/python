@@ -1,7 +1,6 @@
-# Calcular a velocidade média
+# Converter a temperatura
 
-tempo = int(input('Digitr o tempo da viagem: '))
-distancia = int(input('Digite a distancia: '))
-velocidademedia = distancia / tempo
+temperatura = float(input('Digite a temperatura em ºC: '))
+calculo = (9 * temperatura) / 5 + 32
 
-print ('A velocidade média da sua viagem é de: %4.1f Km/h' %(velocidademedia))
+print ('A temperatura em ºF é de: %4.1f ºF' %(calculo))
