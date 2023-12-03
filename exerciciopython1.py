@@ -1,6 +1,6 @@
-# Converter a temperatura
+# Carro alugado
 
-temperatura = float(input('Digite a temperatura em ºC: '))
-calculo = (9 * temperatura) / 5 + 32
-
-print ('A temperatura em ºF é de: %4.1f ºF' %(calculo))
+dias = int(input('Digite a quantidade de dias que o carro foi alugado: '))
+kms = float(input('Digite os KMs percorridos pelo carro: '))
+calculo = (dias * 60) + (kms * 0.15)
+print ('O valor a pagar pelo carro alugado é de: R$ %5.2F' %(calculo))
