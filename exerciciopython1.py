@@ -1,15 +1,7 @@
-#Tabuada
-numero = int(input('Digite um numero: '))
-
-print('-' *12)
-print('%d X %d = %d'  %(numero,1,numero*1 ))
-print('%d X %d = %d' %(numero,2,numero*2))
-print('%d X %d = %d' %(numero,3,numero*3))
-print('%d X %d = %d' %(numero,4,numero*4))
-print('%d X %d = %d' %(numero,5,numero*5))
-print('%d X %d = %d' %(numero,6,numero*6))
-print('%d X %d = %d' %(numero,7,numero*7))
-print('%d X %d = %d' %(numero,8,numero*8))
-print('%d X %d = %d' %(numero,9,numero*9))
-print('%d X %d = %d' %(numero,10,numero*10))   
-print('-' *12)
+#Pintura da parede
+largura = float(input('Digite a largura da parede:'))
+altura = float(input('Digite a altura da parede: '))
+area = largura * altura
+tinta = area / 2
+print('Sua parede tem a dimensão de %1.1f X %1.2f e sua área é de %1.3f m²' %(largura,altura,area))
+print('Para pintar essa parede, você precisará de %f L de tinta.' % (tinta))
